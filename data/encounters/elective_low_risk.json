@@ -1,0 +1,6 @@
+{"id": "synthetic-ortho-02", "age": 61, "los_days": 2, "emergent_admission": false,
+ "ed_visits_6mo": 0, "admissions_12mo": 0, "charlson_categories": [],
+ "hemoglobin": 12.6, "sodium": 139, "had_procedure": true, "oncology_discharge": false,
+ "discharge_med_count": 4, "lives_alone": false, "no_pcp": false, "housing_instability": false,
+ "transportation_barrier": false, "medication_cost_barrier": false, "limited_health_literacy": false,
+ "needs_interpreter": false}
