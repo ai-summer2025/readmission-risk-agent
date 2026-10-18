@@ -1,0 +1,15 @@
+DISCHARGE SUMMARY (synthetic)
+Admission date: 2026-03-02
+Discharge date: 2026-03-09
+Discharging service: Internal Medicine
+
+74-year-old man who presented to the ED with dyspnea and leg swelling.
+PMH: HFrEF (EF 30%), type 2 diabetes with diabetic nephropathy, COPD, prior MI (2019).
+No history of stroke.
+Utilization: 2 ED visits in the past 6 months; 3 hospital admissions in the past 12 months.
+
+Labs on admission: Hgb 11.9, Na 131.
+Labs at discharge: Hgb 11.2, Na 134.
+Procedures: none.
+
+Social: lives alone; daughter visits weekly.
