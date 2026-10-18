@@ -1,0 +1,20 @@
+{
+ "R01": {"fields": {"age": 82, "los_days": 8, "emergent_admission": true, "ed_visits_6mo": 1, "admissions_12mo": 2,
+          "hemoglobin": 10.4, "sodium": 136, "had_procedure": false, "oncology_discharge": false},
+         "charlson": ["connective_tissue_disease", "dementia", "diabetes_uncomplicated", "moderate_severe_renal_disease"]},
+ "R02": {"fields": {"age": 64, "los_days": 2, "emergent_admission": false, "ed_visits_6mo": 0, "admissions_12mo": 0,
+          "hemoglobin": 11.4, "sodium": 138, "had_procedure": true, "oncology_discharge": false},
+         "charlson": []},
+ "R03": {"fields": {"age": 58, "los_days": 6, "emergent_admission": true, "ed_visits_6mo": 4, "admissions_12mo": 6,
+          "hemoglobin": 8.9, "sodium": 133, "had_procedure": true, "oncology_discharge": true},
+         "charlson": ["metastatic_solid_tumor"]},
+ "R04": {"fields": {"age": 71, "los_days": 16, "emergent_admission": true, "ed_visits_6mo": 3, "admissions_12mo": 1,
+          "hemoglobin": 9.1, "sodium": 131, "had_procedure": true, "oncology_discharge": false},
+         "charlson": ["chronic_pulmonary_disease", "moderate_severe_liver_disease", "peripheral_vascular_disease"]},
+ "R05": {"fields": {"age": 49, "los_days": 1, "emergent_admission": true, "ed_visits_6mo": 5, "admissions_12mo": 0,
+          "hemoglobin": 13.1, "sodium": 140, "had_procedure": false, "oncology_discharge": false},
+         "charlson": ["aids", "chronic_pulmonary_disease"]},
+ "R06": {"fields": {"age": 77, "los_days": 4, "emergent_admission": true, "ed_visits_6mo": 2, "admissions_12mo": 2,
+          "hemoglobin": 12.2, "sodium": 135, "had_procedure": false, "oncology_discharge": false},
+         "charlson": ["cerebrovascular_disease", "congestive_heart_failure", "diabetes_end_organ_damage", "hemiplegia"]}
+}

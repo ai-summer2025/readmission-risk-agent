@@ -1,0 +1,7 @@
+Admission date: 2026-05-05
+Discharge date: 2026-05-11
+Discharging service: Oncology
+58-year-old man with metastatic pancreatic cancer admitted urgently via the emergency department for intractable pain.
+4 ED visits in the past 6 months; 6 hospital admissions in the past 12 months.
+Admission labs: Hgb 9.8, Na 129. Discharge labs: Hgb 8.9, Na 133.
+Procedures: paracentesis
