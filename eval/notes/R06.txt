@@ -1,0 +1,7 @@
+Admission date: 2026-09-01
+Discharge date: 2026-09-05
+Patient is a 77 yo man admitted via the ED after a fall with left-sided weakness; MRI showed acute stroke. Residual left hemiparesis.
+PMH: atrial fibrillation, heart failure with preserved EF, prior stroke 2022, diabetic neuropathy.
+2 ED visits in the past 6 months. 2 hospital admissions in the past 12 months.
+Discharge labs: Hgb 12.2, sodium 135.
+Procedures: none
