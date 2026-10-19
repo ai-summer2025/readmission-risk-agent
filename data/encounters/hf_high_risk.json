@@ -1,0 +1,7 @@
+{"id": "synthetic-hf-01", "age": 78, "los_days": 8, "emergent_admission": true,
+ "ed_visits_6mo": 3, "admissions_12mo": 3,
+ "charlson_categories": ["congestive_heart_failure", "diabetes_end_organ_damage", "chronic_pulmonary_disease"],
+ "hemoglobin": 10.8, "sodium": 132, "had_procedure": false, "oncology_discharge": false,
+ "discharge_med_count": 13, "lives_alone": true, "no_pcp": false, "housing_instability": false,
+ "transportation_barrier": true, "medication_cost_barrier": false, "limited_health_literacy": true,
+ "needs_interpreter": false}
