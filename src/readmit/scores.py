@@ -153,3 +153,13 @@ def hospital(e: Encounter) -> HOSPITAL:
                     I=1 if e.emergent_admission else 0,
                     A=hospital_admission_points(e.admissions_12mo),
                     L=2 if e.los_days >= 5 else 0)
+
+# HOSPITAL score components (Donzé et al. 2014):
+#   H — haemoglobin < 12 g/dL at discharge                  (+1)
+#   O — discharge from an oncology service                   (+2)
+#   S — sodium < 135 mEq/L at discharge                     (+1)
+#   P — procedure during index admission (ICD-9 coded)       (+1)
+#   I — index admission type: urgent/emergent                (+1)
+#   T — number of admissions in previous year >= 5           (+2)
+#   A — length of stay >= 5 days                             (+1)
+# Total >= 5 → HIGH risk (expected 30-day readmission > 22 %).
