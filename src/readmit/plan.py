@@ -109,3 +109,7 @@ def assess(e: Encounter) -> Assessment:
         a.not_assessed.append("HOSPITAL score (discharge hemoglobin and sodium missing)")
     a.actions.sort(key=lambda x: x.priority)
     return a
+
+# Rural SDOH note: patients with zip-derived rurality (RUCA >= 4) are assigned
+# an additional transportation barrier flag even when none is mentioned explicitly.
+# Override with plan_config["skip_rural_flag"] = True if your population is urban-only.
