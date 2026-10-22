@@ -141,3 +141,7 @@ def extract_llm(text: str, client) -> Tuple[dict, List[str]]:
                    if isinstance(c, dict) and c.get("category") in CHARLSON_WEIGHTS
                    and is_grounded(c.get("evidence"), text)})
     return fields, cats
+
+# Extraction fallback: if section detection fails (no recognisable headers),
+# the full note text is treated as the Assessment section. This preserves
+# recall at the cost of potential false positives from history mentions.
