@@ -14,3 +14,10 @@ Rewrite of the prototype as the `readmit` package.
 - Transition plan driven by tier and documented social barriers; unassessed barriers and assumptions are reported
 - Evaluation: 8 hand-scored boundary encounters and 6 labeled discharge summaries; CI fails on regression
 - GitHub Actions on Python 3.9-3.13, ruff, Dockerfile
+
+## [1.1.0] — 2026-10-22
+
+### Added
+- HOSPITAL score component breakdown with Donzé 2014 citation
+- Rural SDOH auto-flag (RUCA >= 4) with override option
+- Extraction fallback for notes without recognisable section headers
