@@ -96,3 +96,16 @@ Replaces the earlier prototype in this repository and the empty `discharge-readm
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+---
+
+## ❓ FAQ
+
+**Q: The LACE score and HOSPITAL score disagree — which do I trust?**  
+A: Report both. LACE weighs acuity and ED visits; HOSPITAL weighs lab values and service type. High on either warrants follow-up; high on both is your highest-risk cohort.
+
+**Q: How do I handle patients with no prior admission history?**  
+A: Prior admissions default to 0. This scores conservatively (no penalty, no bonus). The SDOH screen still runs and may flag social risk independently.
+
+**Q: Can I adjust the high-risk threshold?**  
+A: Yes — set `LACE_HIGH_THRESHOLD` and `HOSPITAL_HIGH_THRESHOLD` in `src/readmit/scores.py` to match your institution's calibration.
